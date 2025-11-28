@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Inscrições</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="oficinas.html">Oficinas</a></li>
+        <li><a href="alunos.html">Alunos</a></li>
+        <li><a href="inscricoes.html">Inscrições</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Cadastro de Inscrições</h2>
+
+    <form class="formulario">
+        <label>ID da Inscrição:</label>
+        <input type="number" required>
+
+        <label>Data:</label>
+        <input type="date" required>
+
+        <label>Nome do Aluno:</label>
+        <input type="text" required>
+
+        <label>Nome da Oficina:</label>
+        <input type="text" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h3>Inscrições Realizadas</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Data</th>
+                <th>Aluno</th>
+                <th>Oficina</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                <td>100</td>
+                <td>2025-05-20</td>
+                <td>Maria Santos</td>
+                <td>Teatro</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>2025-05-21</td>
+                <td>Pedro Lima</td>
+                <td>Música</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+</body>
+</html>
